@@ -1,64 +1,56 @@
-# 100Hires — Junior Growth Marketing Specialist — Setup Task
+# 100Hires — Junior Growth Marketing Specialist — Portfolio Project
 
-This repository documents the first step of the 100Hires application process: installing the requested tools, connecting Cursor to GitHub, and publishing this README.
-
----
-
-## Tools installed
-
-- **Cursor IDE** — downloaded from [cursor.com](https://cursor.com/)
-- **Claude Code** — Cursor extension (View → Extensions, search “Claude Code”), signed in
-- **Codex** — Cursor extension (same flow), signed in
-- **Git** — was not pre-installed on this machine; installed separately so Cursor could clone, commit, and push
+This repository documents my complete portfolio project for the 100Hires application process, from initial setup through research and playbook creation.
 
 ---
 
-## Steps completed
+## Project Summary
 
-1. Installed Cursor and added the **Claude Code** and **Codex** extensions via **View → Extensions**, then logged into both.
-2. Created a **public GitHub repository** for this project.
-3. Installed **Git** on the computer after noticing it was missing.
-4. Restarted/refreshed Cursor and opened **Source Control** (`Ctrl+Shift+G`).
-5. **Cloned** the repository into Cursor by pasting the repo URL when prompted.
-6. Authorized GitHub when the account requested verification so Cursor could access the repo.
-7. Switched the integrated terminal from **PowerShell** to **Git Bash** to finish Git configuration (`user.name`, `user.email`, etc.).
-8. Created this **README.md**, committed the changes, and **pushed** to GitHub.
+**Topic chosen:** AI-Powered SEO Content Production for B2B SaaS
 
----
-
-## Issues encountered and how I solved them
-
-| Issue | What I did |
-|--------|------------|
-| Git was not installed | Downloaded and installed Git for Windows, then continued in Cursor. |
-| Connecting the repo from Cursor | Used Source Control (`Ctrl+Shift+G`) and cloned via the repository URL instead of assuming Git was already available. |
-| GitHub verification | Completed the browser/account verification flow and granted Cursor access when prompted. |
-| Git setup in the terminal | Used Git Bash instead of PowerShell so configuration commands behaved as expected in tutorials I followed. |
+**Deliverables:**
+- playbook.md — A complete Playbook/SOP with 13 cited steps, expert disagreements, rejected ideas, an original idea, honest weaknesses, and expert critique
+- research/sources.md — Annotated list of 10 experts with selection criteria
+- research/other/ — Detailed research notes per expert (Ryan Law, Kevin Indig, Eli Schwartz, Nathan Gotch, Ross Simmonds)
+- scripts/collect_transcripts.py — Python script to collect YouTube transcripts via Supadata API
 
 ---
 
-## Writing and AI assistance
+## Step 1: Setup (May 2, 2026)
 
-I drafted this README myself and used **AI (Cursor)** to review spelling, grammar, and clarity so the writing reads clearly for reviewers. The facts and steps above reflect what I actually did.
+Installed Cursor IDE, Claude Code, and Codex extensions. Created this public GitHub repository, configured Git, and pushed the initial README.
+
+**Tools instaor IDE, Claude Code extension, Codex extension, Git
 
 ---
 
-## Prompt used with Cursor AI (English)
+## Step 2: Research (June 2026)
 
-Below is the prompt I sent to Cursor (original ask was in Spanish; this is the English version):
+Chose topic #3: AI-Powered SEO Content Production. Identified and annotated 10 experts who actively practice what they teach — filtering for practitioners over commentators. Built a collection script for YouTube transcripts via the Supadata API.
 
-**Instruction**
+**Experts researched:** Ryan Law (Ahrefs), Kevin Indig (Growth Memo), Bernard Huang (Clearscope), Mike King (iPullRank), Aleyda Solis (Orainti), Lily Ray (Amsive), Eli Schwartz (Product-Led SEO), Nathan Gotch (Rankability), Ross Simmonds (Foundation Marketing), Koray Tugberk Gubur (Holistic SEO)
 
-Help me put this in well-written form and add that I used AI to check that the writing is correct.
+---
 
-**Context I pasted (assignment summary — 100Hires email from Alex Kravets)**
+## Step 3: Playbook / SOP (August 2026)
 
-Portfolio-process first step: install Cursor ([cursor.com](https://cursor.com/)); add and log into **Claude Code** and **Codex** extensions; create a **public GitHub** repo; open it in Cursor; write **README.md** with tools installed, steps completed, and issues/how you solved them; commit and push; reply with the **README.md** link on GitHub. Deadline 48 hours; no extensions; using tutorials / finding answers yourself is OK.
+Created a comprehensive playbook for AI-powered SEO content production, built on the research from Step 2. The playbook includes:
 
-**Rough draft I asked Cursor to rewrite**
+- **13 actionable steps** organized into 4 phases (Topic Selection, AI Workflow, Quality/Optimization, Distribution), each citing its source with author, title, URL, and date
+- **3 expert disagreements** (fu automation vs human-in-the-loop, volume vs depth, content-first vs distribution-first) with my position on each
+- **2 rejected ideas** with reasoning (topical authority maps, programmatic SEO pages)
+- **1 original idea:** bilingual AI content production for the Latin American B2B SaaS market
+- **6 honest weaknesses** of the playbook
+- **1 expert I would not recommend** following, with specific reasons
 
-The first thing I did was download Cursor and add the extensions by clicking View and then Extensions.
+---
 
-After that, I made the public repository, and when I tried to use it from Cursor I noticed that I didn't have Git installed on this computer, so I had to install Git first. After installing it, I refreshed Cursor and connected the repository using Ctrl+Shift+G to open Source Control.
+## AI Tools Used
 
-When Source Control was open, I cloned the repository by pasting its URL. My GitHub account asked for verification, so I granted access to Cursor. I had to switch the terminal from PowerShell to Git Bash to finish configuring Git. Finally I committed and pushed the README to the repository.
+This project was built using AI tools throughout, as intended by the process:
+
+- **Cursor IDE** with Claude Code and Codex extensions for development
+- **Claude (Anthropic)** for research synthesis, source analysis, and drafting assistance
+- **Supadata API** for YouTube transcript collection
+
+All strategic decisions (which experts to prioritize, which side to take in disagreements, which ideas to reject, the original bilingual idea) reflect my own judgment, informed by AI-assisted research.
